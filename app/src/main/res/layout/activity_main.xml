@@ -13,8 +13,36 @@
         tools:context="com.sky.downloader.MainActivity">
 
     <Button
-            android:id="@+id/load_image"
-            android:text="Load Image"
+            android:id="@+id/add"
+            android:text="Add"
+            android:textAllCaps="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <Button
+            android:id="@+id/delete"
+            android:text="Delete"
+            android:textAllCaps="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <Button
+            android:id="@+id/update"
+            android:text="Update"
+            android:textAllCaps="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <Button
+            android:id="@+id/query"
+            android:text="Query"
+            android:textAllCaps="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <Button
+            android:id="@+id/cancel"
+            android:text="Cancel"
             android:textAllCaps="false"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
@@ -23,5 +51,12 @@
             android:id="@+id/iv_image"
             android:scaleType="centerCrop"
             android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <Button
+            android:id="@+id/delete_folder"
+            android:textAllCaps="false"
+            android:text="Delete folder"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
 </LinearLayout>
