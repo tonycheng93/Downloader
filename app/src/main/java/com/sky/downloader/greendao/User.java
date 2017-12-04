@@ -17,11 +17,14 @@ public class User {
     private String name;
     @Property(nameInDb = "age")
     private int age;
-    @Generated(hash = 1309193360)
-    public User(Long id, String name, int age) {
+    @Property(nameInDb = "sex")
+    private String sex;
+    @Generated(hash = 689493095)
+    public User(Long id, String name, int age, String sex) {
         this.id = id;
         this.name = name;
         this.age = age;
+        this.sex = sex;
     }
     @Generated(hash = 586692638)
     public User() {
@@ -43,5 +46,11 @@ public class User {
     }
     public void setAge(int age) {
         this.age = age;
+    }
+    public String getSex() {
+        return this.sex;
+    }
+    public void setSex(String sex) {
+        this.sex = sex;
     }
 }
